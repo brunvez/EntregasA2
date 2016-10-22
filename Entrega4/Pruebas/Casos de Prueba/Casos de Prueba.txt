@@ -1,0 +1,168 @@
+********************************************* Pruebas TAD Grafo OK *********************************************
+
+
+
+----------------------------- Testeo --------------------------------
+  Comentario: Se crea el grafo.
+  Retorno obtenido OK
+---------------------------------------------------------------------
+
+
+
+********************************************* Pruebas Pruebas creacion del grafo OK *********************************************
+
+
+
+
+
+********************************************* Pruebas Pruebas Vertices del grafo OK *********************************************
+
+
+
+----------------------------- Testeo --------------------------------
+  Comentario: Cantidad de vertices esperada '5', obtenida '5'
+  Retorno obtenido OK
+---------------------------------------------------------------------
+
+----------------------------- Testeo --------------------------------
+  Comentario: Cantidad de arcos esperada '5', obtenida '5'
+  Retorno obtenido OK
+---------------------------------------------------------------------
+
+----------------------------- Testeo --------------------------------
+  Comentario: El vertice 'Montevideo' pertenece al grafo.
+  Retorno obtenido OK
+---------------------------------------------------------------------
+
+----------------------------- Testeo --------------------------------
+  Comentario: El vertice 'Maldonado' pertenece al grafo.
+  Retorno obtenido OK
+---------------------------------------------------------------------
+
+----------------------------- Testeo --------------------------------
+  Comentario: El vertice 'La Paz' pertenece al grafo.
+  Retorno obtenido OK
+---------------------------------------------------------------------
+
+----------------------------- Testeo --------------------------------
+  Comentario: El vertice 'Salto' pertenece al grafo.
+  Retorno obtenido OK
+---------------------------------------------------------------------
+
+----------------------------- Testeo --------------------------------
+  Comentario: El vertice 'Durazno' pertenece al grafo.
+  Retorno obtenido OK
+---------------------------------------------------------------------
+
+----------------------------- Testeo --------------------------------
+  Comentario: Se obtuvo Montevideo y se esperaba Montevideo
+  Retorno obtenido OK
+---------------------------------------------------------------------
+
+----------------------------- Testeo --------------------------------
+  Comentario: Se obtuvo Maldonado y se esperaba Maldonado
+  Retorno obtenido OK
+---------------------------------------------------------------------
+
+----------------------------- Testeo --------------------------------
+  Comentario: Se obtuvo La Paz y se esperaba La Paz
+  Retorno obtenido OK
+---------------------------------------------------------------------
+
+----------------------------- Testeo --------------------------------
+  Comentario: Se obtuvo Salto y se esperaba Salto
+  Retorno obtenido OK
+---------------------------------------------------------------------
+
+----------------------------- Testeo --------------------------------
+  Comentario: Se obtuvo Durazno y se esperaba Durazno
+  Retorno obtenido OK
+---------------------------------------------------------------------
+
+
+
+********************************************* Pruebas Pruebas Adjacentes OK *********************************************
+
+
+
+----------------------------- Testeo --------------------------------
+  Comentario: Cantidad de vertieces adjacentes a 'La Paz' esperado '2' obtenido '2'
+  Retorno obtenido OK
+---------------------------------------------------------------------
+
+----------------------------- Testeo --------------------------------
+  Comentario: Cantidad de vertieces adjacentes a 'Montevideo' esperado '2' obtenido '2'
+  Retorno obtenido OK
+---------------------------------------------------------------------
+
+----------------------------- Testeo --------------------------------
+  Comentario: Cantidad de vertieces incidentes a 'Durazno' esperado '2' obtenido '2'
+  Retorno obtenido OK
+---------------------------------------------------------------------
+
+----------------------------- Testeo --------------------------------
+  Comentario: Se obtuvo Salto y se esperaba Salto
+  Retorno obtenido OK
+---------------------------------------------------------------------
+
+----------------------------- Testeo --------------------------------
+  Comentario: Se obtuvo Durazno y se esperaba Durazno
+  Retorno obtenido OK
+---------------------------------------------------------------------
+
+----------------------------- Testeo --------------------------------
+  Comentario: Arco entre 'Montevideo -> Maldonado' existe
+  Retorno obtenido OK
+---------------------------------------------------------------------
+
+----------------------------- Testeo --------------------------------
+  Comentario: Arco entre 'Montevideo -> Maldonado' esperado '10' obtenido '10'
+  Retorno obtenido OK
+---------------------------------------------------------------------
+
+----------------------------- Testeo --------------------------------
+  Comentario: Arco entre 'La Paz -> Salto' existe
+  Retorno obtenido OK
+---------------------------------------------------------------------
+
+----------------------------- Testeo --------------------------------
+  Comentario: Arco entre 'La Paz -> Salto' esperado '1' obtenido '1'
+  Retorno obtenido OK
+---------------------------------------------------------------------
+
+----------------------------- Testeo --------------------------------
+  Comentario: Arco entre 'La Paz -> Durazno' existe
+  Retorno obtenido OK
+---------------------------------------------------------------------
+
+----------------------------- Testeo --------------------------------
+  Comentario: Arco entre 'La Paz -> Durazno' esperado '3' obtenido '3'
+  Retorno obtenido OK
+---------------------------------------------------------------------
+
+----------------------------- Testeo --------------------------------
+  Comentario: Arco entre 'Montevideo -> La Paz' existe
+  Retorno obtenido OK
+---------------------------------------------------------------------
+
+----------------------------- Testeo --------------------------------
+  Comentario: Arco entre 'Montevideo -> La Paz' esperado '17' obtenido '17'
+  Retorno obtenido OK
+---------------------------------------------------------------------
+
+
+
+********************************************* Pruebas TAD Grafo - Orden topologico OK *********************************************
+
+
+
+----------------------------- Testeo --------------------------------
+  Comentario: Se obtuvo el orden: 'Montevideo-Maldonado-La Paz-Salto-Durazno'
+  Retorno obtenido OK
+---------------------------------------------------------------------
+
+  +------------------------------+
+    Pruebas Correctas : 27
+    Pruebas Incorrectas: 0
+    Pruebas NI: 0
+  +------------------------------+

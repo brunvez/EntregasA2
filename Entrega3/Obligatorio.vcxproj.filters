@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Implementacion">
+      <UniqueIdentifier>{5f63c92d-1635-4d7e-a513-4bf82e999fe4}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Implementacion</Filter>
+    </ClCompile>
+    <ClCompile Include="Tablero.cpp">
+      <Filter>Implementacion</Filter>
+    </ClCompile>
+    <ClCompile Include="CasoDePrueba.cpp">
+      <Filter>Implementacion</Filter>
+    </ClCompile>
+    <ClCompile Include="Sistema.cpp">
+      <Filter>Implementacion</Filter>
+    </ClCompile>
+    <ClCompile Include="ColaDePrioridadHeap.cpp">
+      <Filter>Implementacion</Filter>
+    </ClCompile>
+    <ClCompile Include="LinkedList.cpp">
+      <Filter>Implementacion</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Tablero.h">
+      <Filter>Implementacion</Filter>
+    </ClInclude>
+    <ClInclude Include="CasoDePrueba.h">
+      <Filter>Implementacion</Filter>
+    </ClInclude>
+    <ClInclude Include="Sistema.h">
+      <Filter>Implementacion</Filter>
+    </ClInclude>
+    <ClInclude Include="ColaDePrioridadHeap.h">
+      <Filter>Implementacion</Filter>
+    </ClInclude>
+    <ClInclude Include="LinkedList.h">
+      <Filter>Implementacion</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="Pruebas\Casos de Prueba\Casos de Prueba.txt">
+      <Filter>Implementacion</Filter>
+    </Text>
+  </ItemGroup>
+</Project>

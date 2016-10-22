@@ -1,0 +1,99 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Obligatorio">
+      <UniqueIdentifier>{288f1f99-c3c9-4721-83c2-89f1e1834f2d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Obligatorio\Pruebas">
+      <UniqueIdentifier>{ec6ed5e1-1060-4607-b4f7-9efbc68609a8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Obligatorio\Interfaces">
+      <UniqueIdentifier>{2a4b271d-48c4-419b-ad77-37e36699f80c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Implementacion">
+      <UniqueIdentifier>{5f63c92d-1635-4d7e-a513-4bf82e999fe4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Implementacion\Tads">
+      <UniqueIdentifier>{dbba3574-390f-48f9-ac1c-47e7674383f7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Implementacion\Tads\Pila">
+      <UniqueIdentifier>{0cd099fc-7712-4801-96a7-c4e536b646cb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Implementacion\Tads\Lista">
+      <UniqueIdentifier>{76c8a92e-ff3c-4378-8409-9a2e60220ee9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Implementacion\Tads\Cola">
+      <UniqueIdentifier>{847a70b0-26e5-4675-adc4-db9c311f3c05}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="CasoDePrueba.cpp">
+      <Filter>Obligatorio\Pruebas</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Implementacion</Filter>
+    </ClCompile>
+    <ClCompile Include="Sistema.cpp">
+      <Filter>Implementacion</Filter>
+    </ClCompile>
+    <ClCompile Include="SistemaTemplates.cpp">
+      <Filter>Implementacion</Filter>
+    </ClCompile>
+    <ClCompile Include="ArrayListOrdenado.cpp">
+      <Filter>Implementacion\Tads\Lista</Filter>
+    </ClCompile>
+    <ClCompile Include="LinkedListOrdenado.cpp">
+      <Filter>Implementacion\Tads\Lista</Filter>
+    </ClCompile>
+    <ClCompile Include="PilaArray.cpp">
+      <Filter>Implementacion\Tads\Pila</Filter>
+    </ClCompile>
+    <ClCompile Include="PilaEncadenada.cpp">
+      <Filter>Implementacion\Tads\Pila</Filter>
+    </ClCompile>
+    <ClCompile Include="ColaPrioridadImp.cpp">
+      <Filter>Implementacion\Tads\Cola</Filter>
+    </ClCompile>
+    <ClCompile Include="Asociacion.cpp">
+      <Filter>Implementacion</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="CasoDePrueba.h">
+      <Filter>Obligatorio\Pruebas</Filter>
+    </ClInclude>
+    <ClInclude Include="Sistema.h">
+      <Filter>Implementacion</Filter>
+    </ClInclude>
+    <ClInclude Include="ArrayListOrdenado.h">
+      <Filter>Implementacion\Tads\Lista</Filter>
+    </ClInclude>
+    <ClInclude Include="LinkedListOrdenado.h">
+      <Filter>Implementacion\Tads\Lista</Filter>
+    </ClInclude>
+    <ClInclude Include="Lista.h">
+      <Filter>Implementacion\Tads\Lista</Filter>
+    </ClInclude>
+    <ClInclude Include="Pila.h">
+      <Filter>Implementacion\Tads\Pila</Filter>
+    </ClInclude>
+    <ClInclude Include="PilaArray.h">
+      <Filter>Implementacion\Tads\Pila</Filter>
+    </ClInclude>
+    <ClInclude Include="PilaEncadenada.h">
+      <Filter>Implementacion\Tads\Pila</Filter>
+    </ClInclude>
+    <ClInclude Include="ColaPrioridad.h">
+      <Filter>Implementacion\Tads\Cola</Filter>
+    </ClInclude>
+    <ClInclude Include="ColaPrioridadImp.h">
+      <Filter>Implementacion\Tads\Cola</Filter>
+    </ClInclude>
+    <ClInclude Include="Asociacion.h">
+      <Filter>Implementacion</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="Pruebas\Casos de Prueba\Casos de Prueba.txt" />
+  </ItemGroup>
+</Project>
