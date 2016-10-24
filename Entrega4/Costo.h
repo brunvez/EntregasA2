@@ -3,14 +3,16 @@
 class Costo {
 public:
 	Costo() {
-		costs = Tupla<int, int, int>(INT_MAX, INT_MAX, INT_MAX);
+		costs = Tupla<int, int, int, int>(INT_MAX, INT_MAX, INT_MAX, INT_MAX);
 	}
-	Costo(Tupla<int, int, int> t) {
+	Costo(Tupla<int, int, int, int> t) {
 		costs = t;
 	}
 
 	bool operator <(const Costo & c) const {
-		if (costs.Dato1 == c.costs.Dato1 && costs.Dato2 == c.costs.Dato2) {
+		if (costs.Dato1 == c.costs.Dato1 && costs.Dato2 == c.costs.Dato2 && costs.Dato3 == c.costs.Dato3) {
+			return costs.Dato4 == c.costs.Dato4;
+		} else if (costs.Dato1 == c.costs.Dato1 && costs.Dato2 == c.costs.Dato2) {
 			return costs.Dato3 < c.costs.Dato3;
 		} else if (costs.Dato1 == c.costs.Dato1) {
 			return costs.Dato2 < c.costs.Dato2;
@@ -23,7 +25,7 @@ public:
 	};
 
 	bool operator ==(const Costo & c) const {
-		return costs.Dato1 == c.costs.Dato1 && costs.Dato2 == c.costs.Dato2 && costs.Dato3 == c.costs.Dato3;
+		return costs == c.costs;
 	};
 
 	bool operator !=(const Costo & c) const {
@@ -42,12 +44,13 @@ public:
 		costs.AsignarDato1(costs.Dato1 + c.costs.Dato1);
 		costs.AsignarDato2(costs.Dato2 + c.costs.Dato2);
 		costs.AsignarDato3(costs.Dato3 + c.costs.Dato3);
+		costs.AsignarDato4(costs.Dato4 + c.costs.Dato4);
 	};
 
 	Costo & operator =(const Costo & c) {
-		costs = Tupla<int,int,int>(c.costs.Dato1, c.costs.Dato2, c.costs.Dato3);
+		costs = Tupla<int,int,int, int>(c.costs.Dato1, c.costs.Dato2, c.costs.Dato3, c.costs.Dato4);
 		return *this;
 	};
 private:
-	Tupla<int, int, int> costs;
+	Tupla<int, int, int, int> costs;
 };

@@ -27,6 +27,7 @@ public:
 	// SELECTORAS y PREDICADOS
 
 	virtual Iterador<V> Vertices() const abstract;
+	virtual Iterador<Tupla<V, A, V>> Aristas() const abstract;
 	virtual Iterador<V> Adyacentes(const V& v) const abstract;
 	virtual Iterador<V> Incidentes(const V& v) const abstract;
 

@@ -19,6 +19,7 @@ public:
 	void BorrarArco(const V& v1, const V& v2);
 
 	Iterador<V> Vertices() const;
+	Iterador<Tupla<V,A,V>> Aristas() const;
 	Iterador<V> Adyacentes(const V& v) const;
 	Iterador<V> Incidentes(const V& v) const;
 

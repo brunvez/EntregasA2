@@ -74,6 +74,9 @@
     <ClInclude Include="Costo.h">
       <Filter>Obligatorio\Tads</Filter>
     </ClInclude>
+    <ClInclude Include="TiposDeTransporte.h">
+      <Filter>Obligatorio\Tads</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <Text Include="Pruebas\Casos de Prueba\Casos de Prueba.txt">

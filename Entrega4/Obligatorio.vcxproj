@@ -116,6 +116,7 @@
     <ClInclude Include="Sistema.h" />
     <ClInclude Include="Tabla.h" />
     <ClInclude Include="TablaHashCerrado.h" />
+    <ClInclude Include="TiposDeTransporte.h" />
   </ItemGroup>
   <ItemGroup>
     <Text Include="Pruebas\Casos de Prueba\Casos de Prueba.txt" />

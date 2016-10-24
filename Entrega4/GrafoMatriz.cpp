@@ -52,9 +52,7 @@ void GrafoMatriz<V, A>::AgregarArco(const V & v1, const V & v2, const A & arco) 
 	int index1 = posicionesVertices->Obtener(v1);
 	int index2 = posicionesVertices->Obtener(v2);
 	assert(!vertices[index1].Dato2 || comp.SonIguales(vertices[index1].Dato1, v1));
-	vertices[index1] = Tupla<V, bool>(v1, true);
 	assert(!vertices[index2].Dato2 || comp.SonIguales(vertices[index2].Dato1, v2));
-	vertices[index2] = Tupla<V, bool>(v2, true);
 	aristas[index1][index2] = Tupla<A, bool>(arco, true);
 }
 
@@ -72,6 +70,19 @@ Iterador<V> GrafoMatriz<V, A>::Vertices() const {
 	for (int i = 0; i < (int)vertices.Largo; i++) {
 		if (vertices[i].Dato2)
 			l->AddLast(vertices[i].Dato1);
+	}
+	return l->GetIterator();
+}
+
+template<class V, class A>
+Iterador<Tupla<V,A,V>> GrafoMatriz<V, A>::Aristas() const {
+	Puntero<LinkedList<Tupla<V, A, V>>> l = new LinkedList<Tupla<V, A, V>>();
+	for (int i = 0; i < (int)aristas.Largo; i++) {
+		for (int j = 0; j < (int)aristas.Largo; j++) {
+			if (aristas[i][j].Dato2) {
+				l->AddLast(Tupla<V, A, V>(vertices[i].Dato1, aristas[i][j].Dato1, vertices[j].Dato1));
+			}
+		}
 	}
 	return l->GetIterator();
 }
@@ -156,12 +167,18 @@ nat GrafoMatriz<V, A>::CantidadIncidentes(const V & v) const {
 
 template<class V, class A>
 bool GrafoMatriz<V, A>::ExisteVertice(const V & v) const {
-	int index = posicionesVertices->Obtener(v);
-	return vertices[index].Dato2 && comp.SonIguales(vertices[index].Dato1, v);
+	//int index = posicionesVertices->Obtener(v); // No anda debido a que el vertice no existe en el hash
+	for (int i = 0; i < (int)vertices.Largo; i++) {
+		if (vertices[i].Dato2 && comp.SonIguales(vertices[i].Dato1, v)) {
+			return true;
+		}
+	}
+	return false;
 }
 
 template<class V, class A>
 bool GrafoMatriz<V, A>::ExisteArco(const V & v1, const V & v2) const {
+	assert(ExisteVertice(v1) && ExisteVertice(v2));
 	int index1 = posicionesVertices->Obtener(v1);
 	int index2 = posicionesVertices->Obtener(v2);
 	return aristas[index1][index2].Dato2;

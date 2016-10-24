@@ -14,7 +14,7 @@ template<class C, class V>
 void TablaHashCerrado<C, V>::Agregar(const C & c, const V & v) {
 	assert(!EstaLlena());
 	int pos = fH->CodigoDeHash(c) % arr.ObtenerLargo();
-	while (arr[pos] != NULL && arr[pos]->Dato3 != OCUPADO) {
+	while (arr[pos] != NULL && arr[pos]->Dato3 == OCUPADO) {
 		pos = repos(pos);
 	}
 	arr[pos] = new Tupla<C, V, EstadosHash>(c, v, OCUPADO);
@@ -73,7 +73,8 @@ const V & TablaHashCerrado<C, V>::Obtener(const C & c) const {
 	while (arr[pos] != NULL && (!comp.SonIguales(arr[pos]->Dato1, c) || arr[pos]->Dato3 == LIBRE)) {
 		pos = repos(pos);
 	}
-		return arr[pos]->Dato2;
+	assert(arr[pos] != NULL);
+	return arr[pos]->Dato2;
 }
 
 template<class C, class V>
