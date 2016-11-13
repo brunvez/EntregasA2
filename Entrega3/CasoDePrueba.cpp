@@ -21,8 +21,8 @@ void CasoDePrueba::CorrerPruebaConcreta() {
 	PruebaTablero4();
 	PruebaTablero5();
 	PruebaTablero6();
-	PruebaTablero7(); // prueba larga
-	PruebaTablero8(); // prueba larga
+	// PruebaTablero7(); // prueba larga
+	// PruebaTablero8(); // prueba larga
 }
 
 void CasoDePrueba::Verificar(TipoRetorno obtenido, TipoRetorno esperado, Cadena comentario) {
