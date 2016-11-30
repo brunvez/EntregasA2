@@ -3,123 +3,123 @@
 
 
 ----------------------------- Testeo --------------------------------
-  Comentario: Falta el camino 3,1
-  Retorno obtenido ERROR, se esperaba OK
+  Comentario: Se encontró el camino 3,1 y se esperaba el 3,1
+  Retorno obtenido OK
 ---------------------------------------------------------------------
 
 ----------------------------- Testeo --------------------------------
-  Comentario: Falta el camino 4,1
-  Retorno obtenido ERROR, se esperaba OK
+  Comentario: Se encontró el camino 4,1 y se esperaba el 4,1
+  Retorno obtenido OK
 ---------------------------------------------------------------------
 
 ----------------------------- Testeo --------------------------------
-  Comentario: Falta el camino 5,1
-  Retorno obtenido ERROR, se esperaba OK
+  Comentario: Se encontró el camino 5,1 y se esperaba el 5,1
+  Retorno obtenido OK
 ---------------------------------------------------------------------
 
 ----------------------------- Testeo --------------------------------
-  Comentario: Falta el camino 6,1
-  Retorno obtenido ERROR, se esperaba OK
+  Comentario: Se encontró el camino 6,1 y se esperaba el 6,1
+  Retorno obtenido OK
 ---------------------------------------------------------------------
 
 ----------------------------- Testeo --------------------------------
-  Comentario: Falta el camino 7,1
-  Retorno obtenido ERROR, se esperaba OK
+  Comentario: Se encontró el camino 7,1 y se esperaba el 7,1
+  Retorno obtenido OK
 ---------------------------------------------------------------------
 
 ----------------------------- Testeo --------------------------------
-  Comentario: Falta el camino 8,1
-  Retorno obtenido ERROR, se esperaba OK
+  Comentario: Se encontró el camino 8,1 y se esperaba el 8,1
+  Retorno obtenido OK
 ---------------------------------------------------------------------
 
 ----------------------------- Testeo --------------------------------
-  Comentario: Falta el camino 9,1
-  Retorno obtenido ERROR, se esperaba OK
+  Comentario: Se encontró el camino 9,1 y se esperaba el 9,1
+  Retorno obtenido OK
 ---------------------------------------------------------------------
 
 ----------------------------- Testeo --------------------------------
-  Comentario: Falta el camino 10,1
-  Retorno obtenido ERROR, se esperaba OK
+  Comentario: Se encontró el camino 10,1 y se esperaba el 10,1
+  Retorno obtenido OK
 ---------------------------------------------------------------------
 
 ----------------------------- Testeo --------------------------------
-  Comentario: Falta el camino 10,2
-  Retorno obtenido ERROR, se esperaba OK
+  Comentario: Se encontró el camino 10,2 y se esperaba el 10,2
+  Retorno obtenido OK
 ---------------------------------------------------------------------
 
 ----------------------------- Testeo --------------------------------
-  Comentario: Falta el camino 10,3
-  Retorno obtenido ERROR, se esperaba OK
+  Comentario: Se encontró el camino 10,3 y se esperaba el 10,3
+  Retorno obtenido OK
 ---------------------------------------------------------------------
 
 ----------------------------- Testeo --------------------------------
-  Comentario: Falta el camino 10,4
-  Retorno obtenido ERROR, se esperaba OK
+  Comentario: Se encontró el camino 10,4 y se esperaba el 10,4
+  Retorno obtenido OK
 ---------------------------------------------------------------------
 
 ----------------------------- Testeo --------------------------------
-  Comentario: Falta el camino 10,5
-  Retorno obtenido ERROR, se esperaba OK
+  Comentario: Se encontró el camino 10,5 y se esperaba el 10,5
+  Retorno obtenido OK
 ---------------------------------------------------------------------
 
 ----------------------------- Testeo --------------------------------
-  Comentario: Falta el camino 10,6
-  Retorno obtenido ERROR, se esperaba OK
+  Comentario: Se encontró el camino 10,6 y se esperaba el 10,6
+  Retorno obtenido OK
 ---------------------------------------------------------------------
 
 ----------------------------- Testeo --------------------------------
-  Comentario: Falta el camino 3,1
-  Retorno obtenido ERROR, se esperaba OK
+  Comentario: Se encontró el camino 3,1 y se esperaba el 3,1
+  Retorno obtenido OK
 ---------------------------------------------------------------------
 
 ----------------------------- Testeo --------------------------------
-  Comentario: Falta el camino 3,2
-  Retorno obtenido ERROR, se esperaba OK
+  Comentario: Se encontró el camino 3,2 y se esperaba el 3,2
+  Retorno obtenido OK
 ---------------------------------------------------------------------
 
 ----------------------------- Testeo --------------------------------
-  Comentario: Falta el camino 3,3
-  Retorno obtenido ERROR, se esperaba OK
+  Comentario: Se encontró el camino 3,3 y se esperaba el 3,3
+  Retorno obtenido OK
 ---------------------------------------------------------------------
 
 ----------------------------- Testeo --------------------------------
-  Comentario: Falta el camino 4,3
-  Retorno obtenido ERROR, se esperaba OK
+  Comentario: Se encontró el camino 4,3 y se esperaba el 4,3
+  Retorno obtenido OK
 ---------------------------------------------------------------------
 
 ----------------------------- Testeo --------------------------------
-  Comentario: Falta el camino 5,3
-  Retorno obtenido ERROR, se esperaba OK
+  Comentario: Se encontró el camino 5,3 y se esperaba el 5,3
+  Retorno obtenido OK
 ---------------------------------------------------------------------
 
 ----------------------------- Testeo --------------------------------
-  Comentario: Falta el camino 6,3
-  Retorno obtenido ERROR, se esperaba OK
+  Comentario: Se encontró el camino 6,3 y se esperaba el 6,3
+  Retorno obtenido OK
 ---------------------------------------------------------------------
 
 ----------------------------- Testeo --------------------------------
-  Comentario: Falta el camino 6,4
-  Retorno obtenido ERROR, se esperaba OK
+  Comentario: Se encontró el camino 6,4 y se esperaba el 6,4
+  Retorno obtenido OK
 ---------------------------------------------------------------------
 
 ----------------------------- Testeo --------------------------------
-  Comentario: Falta el camino 6,5
-  Retorno obtenido ERROR, se esperaba OK
+  Comentario: Se encontró el camino 6,5 y se esperaba el 6,5
+  Retorno obtenido OK
 ---------------------------------------------------------------------
 
 ----------------------------- Testeo --------------------------------
-  Comentario: Falta el camino 6,6
-  Retorno obtenido ERROR, se esperaba OK
+  Comentario: Se encontró el camino 6,6 y se esperaba el 6,6
+  Retorno obtenido OK
 ---------------------------------------------------------------------
 
 ----------------------------- Testeo --------------------------------
-  Comentario: Falta el camino 5,6
-  Retorno obtenido ERROR, se esperaba OK
+  Comentario: Se encontró el camino 5,6 y se esperaba el 5,6
+  Retorno obtenido OK
 ---------------------------------------------------------------------
 
 ----------------------------- Testeo --------------------------------
-  Comentario: Falta el camino 4,6
-  Retorno obtenido ERROR, se esperaba OK
+  Comentario: Se encontró el camino 4,6 y se esperaba el 4,6
+  Retorno obtenido OK
 ---------------------------------------------------------------------
 
 
@@ -165,193 +165,193 @@
 
 
 ----------------------------- Testeo --------------------------------
-  Comentario: Se encontró el elemento 0 y se esperaba el elemento 31
-  Retorno obtenido ERROR, se esperaba OK
+  Comentario: Se encontró el elemento 31 y se esperaba el elemento 31
+  Retorno obtenido OK
 ---------------------------------------------------------------------
 
 ----------------------------- Testeo --------------------------------
-  Comentario: Se encontró el elemento 0 y se esperaba el elemento 24
-  Retorno obtenido ERROR, se esperaba OK
+  Comentario: Se encontró el elemento 24 y se esperaba el elemento 24
+  Retorno obtenido OK
 ---------------------------------------------------------------------
 
 ----------------------------- Testeo --------------------------------
-  Comentario: Se encontró el elemento 0 y se esperaba el elemento 2
-  Retorno obtenido ERROR, se esperaba OK
+  Comentario: Se encontró el elemento 2 y se esperaba el elemento 2
+  Retorno obtenido OK
 ---------------------------------------------------------------------
 
 ----------------------------- Testeo --------------------------------
-  Comentario: Se encontró el elemento 0 y se esperaba el elemento 3
-  Retorno obtenido ERROR, se esperaba OK
+  Comentario: Se encontró el elemento 3 y se esperaba el elemento 3
+  Retorno obtenido OK
 ---------------------------------------------------------------------
 
 ----------------------------- Testeo --------------------------------
-  Comentario: Se encontró el elemento 0 y se esperaba el elemento 4
-  Retorno obtenido ERROR, se esperaba OK
+  Comentario: Se encontró el elemento 4 y se esperaba el elemento 4
+  Retorno obtenido OK
 ---------------------------------------------------------------------
 
 ----------------------------- Testeo --------------------------------
-  Comentario: Se encontró el elemento 0 y se esperaba el elemento 6
-  Retorno obtenido ERROR, se esperaba OK
+  Comentario: Se encontró el elemento 6 y se esperaba el elemento 6
+  Retorno obtenido OK
 ---------------------------------------------------------------------
 
 ----------------------------- Testeo --------------------------------
-  Comentario: Se encontró el elemento 0 y se esperaba el elemento 7
-  Retorno obtenido ERROR, se esperaba OK
+  Comentario: Se encontró el elemento 7 y se esperaba el elemento 7
+  Retorno obtenido OK
 ---------------------------------------------------------------------
 
 ----------------------------- Testeo --------------------------------
-  Comentario: Se encontró el elemento 0 y se esperaba el elemento 9
-  Retorno obtenido ERROR, se esperaba OK
+  Comentario: Se encontró el elemento 9 y se esperaba el elemento 9
+  Retorno obtenido OK
 ---------------------------------------------------------------------
 
 ----------------------------- Testeo --------------------------------
-  Comentario: Se encontró el elemento 0 y se esperaba el elemento 25
-  Retorno obtenido ERROR, se esperaba OK
+  Comentario: Se encontró el elemento 25 y se esperaba el elemento 25
+  Retorno obtenido OK
 ---------------------------------------------------------------------
 
 ----------------------------- Testeo --------------------------------
-  Comentario: Se encontró el elemento 0 y se esperaba el elemento 28
-  Retorno obtenido ERROR, se esperaba OK
+  Comentario: Se encontró el elemento 28 y se esperaba el elemento 28
+  Retorno obtenido OK
 ---------------------------------------------------------------------
 
 ----------------------------- Testeo --------------------------------
-  Comentario: Se encontró el elemento 0 y se esperaba el elemento 5
-  Retorno obtenido ERROR, se esperaba OK
+  Comentario: Se encontró el elemento 5 y se esperaba el elemento 5
+  Retorno obtenido OK
 ---------------------------------------------------------------------
 
 ----------------------------- Testeo --------------------------------
-  Comentario: Se encontró el elemento 0 y se esperaba el elemento 1
-  Retorno obtenido ERROR, se esperaba OK
+  Comentario: Se encontró el elemento 1 y se esperaba el elemento 1
+  Retorno obtenido OK
 ---------------------------------------------------------------------
 
 ----------------------------- Testeo --------------------------------
-  Comentario: Se encontró el elemento 0 y se esperaba el elemento 1
-  Retorno obtenido ERROR, se esperaba OK
+  Comentario: Se encontró el elemento 1 y se esperaba el elemento 1
+  Retorno obtenido OK
 ---------------------------------------------------------------------
 
 ----------------------------- Testeo --------------------------------
-  Comentario: Se encontró el elemento 0 y se esperaba el elemento 2
-  Retorno obtenido ERROR, se esperaba OK
+  Comentario: Se encontró el elemento 2 y se esperaba el elemento 2
+  Retorno obtenido OK
 ---------------------------------------------------------------------
 
 ----------------------------- Testeo --------------------------------
-  Comentario: Se encontró el elemento 0 y se esperaba el elemento 4
-  Retorno obtenido ERROR, se esperaba OK
+  Comentario: Se encontró el elemento 4 y se esperaba el elemento 4
+  Retorno obtenido OK
 ---------------------------------------------------------------------
 
 ----------------------------- Testeo --------------------------------
-  Comentario: Se encontró el elemento 0 y se esperaba el elemento 5
-  Retorno obtenido ERROR, se esperaba OK
+  Comentario: Se encontró el elemento 5 y se esperaba el elemento 5
+  Retorno obtenido OK
 ---------------------------------------------------------------------
 
 ----------------------------- Testeo --------------------------------
-  Comentario: Se encontró el elemento 0 y se esperaba el elemento 9
-  Retorno obtenido ERROR, se esperaba OK
+  Comentario: Se encontró el elemento 9 y se esperaba el elemento 9
+  Retorno obtenido OK
 ---------------------------------------------------------------------
 
 ----------------------------- Testeo --------------------------------
-  Comentario: Se encontró el elemento 0 y se esperaba el elemento 10
-  Retorno obtenido ERROR, se esperaba OK
+  Comentario: Se encontró el elemento 10 y se esperaba el elemento 10
+  Retorno obtenido OK
 ---------------------------------------------------------------------
 
 ----------------------------- Testeo --------------------------------
-  Comentario: Se encontró el elemento 0 y se esperaba el elemento 12
-  Retorno obtenido ERROR, se esperaba OK
+  Comentario: Se encontró el elemento 12 y se esperaba el elemento 12
+  Retorno obtenido OK
 ---------------------------------------------------------------------
 
 ----------------------------- Testeo --------------------------------
-  Comentario: Se encontró el elemento 0 y se esperaba el elemento 14
-  Retorno obtenido ERROR, se esperaba OK
+  Comentario: Se encontró el elemento 14 y se esperaba el elemento 14
+  Retorno obtenido OK
 ---------------------------------------------------------------------
 
 ----------------------------- Testeo --------------------------------
-  Comentario: Se encontró el elemento 0 y se esperaba el elemento 15
-  Retorno obtenido ERROR, se esperaba OK
+  Comentario: Se encontró el elemento 15 y se esperaba el elemento 15
+  Retorno obtenido OK
 ---------------------------------------------------------------------
 
 ----------------------------- Testeo --------------------------------
-  Comentario: Se encontró el elemento 0 y se esperaba el elemento 16
-  Retorno obtenido ERROR, se esperaba OK
+  Comentario: Se encontró el elemento 16 y se esperaba el elemento 16
+  Retorno obtenido OK
 ---------------------------------------------------------------------
 
 ----------------------------- Testeo --------------------------------
-  Comentario: Se encontró el elemento 0 y se esperaba el elemento 22
-  Retorno obtenido ERROR, se esperaba OK
+  Comentario: Se encontró el elemento 22 y se esperaba el elemento 22
+  Retorno obtenido OK
 ---------------------------------------------------------------------
 
 ----------------------------- Testeo --------------------------------
-  Comentario: Se encontró el elemento 0 y se esperaba el elemento 3
-  Retorno obtenido ERROR, se esperaba OK
+  Comentario: Se encontró el elemento 3 y se esperaba el elemento 3
+  Retorno obtenido OK
 ---------------------------------------------------------------------
 
 ----------------------------- Testeo --------------------------------
-  Comentario: Se encontró el elemento 0 y se esperaba el elemento 38
-  Retorno obtenido ERROR, se esperaba OK
+  Comentario: Se encontró el elemento 38 y se esperaba el elemento 38
+  Retorno obtenido OK
 ---------------------------------------------------------------------
 
 ----------------------------- Testeo --------------------------------
-  Comentario: Se encontró el elemento 0 y se esperaba el elemento 1
-  Retorno obtenido ERROR, se esperaba OK
+  Comentario: Se encontró el elemento 1 y se esperaba el elemento 1
+  Retorno obtenido OK
 ---------------------------------------------------------------------
 
 ----------------------------- Testeo --------------------------------
-  Comentario: Se encontró el elemento 0 y se esperaba el elemento 4
-  Retorno obtenido ERROR, se esperaba OK
+  Comentario: Se encontró el elemento 4 y se esperaba el elemento 4
+  Retorno obtenido OK
 ---------------------------------------------------------------------
 
 ----------------------------- Testeo --------------------------------
-  Comentario: Se encontró el elemento 0 y se esperaba el elemento 9
-  Retorno obtenido ERROR, se esperaba OK
+  Comentario: Se encontró el elemento 9 y se esperaba el elemento 9
+  Retorno obtenido OK
 ---------------------------------------------------------------------
 
 ----------------------------- Testeo --------------------------------
-  Comentario: Se encontró el elemento 0 y se esperaba el elemento 15
-  Retorno obtenido ERROR, se esperaba OK
+  Comentario: Se encontró el elemento 15 y se esperaba el elemento 15
+  Retorno obtenido OK
 ---------------------------------------------------------------------
 
 ----------------------------- Testeo --------------------------------
-  Comentario: Se encontró el elemento 0 y se esperaba el elemento 22
-  Retorno obtenido ERROR, se esperaba OK
+  Comentario: Se encontró el elemento 22 y se esperaba el elemento 22
+  Retorno obtenido OK
 ---------------------------------------------------------------------
 
 ----------------------------- Testeo --------------------------------
-  Comentario: Se encontró el elemento 0 y se esperaba el elemento 2
-  Retorno obtenido ERROR, se esperaba OK
+  Comentario: Se encontró el elemento 2 y se esperaba el elemento 2
+  Retorno obtenido OK
 ---------------------------------------------------------------------
 
 ----------------------------- Testeo --------------------------------
-  Comentario: Se encontró el elemento 0 y se esperaba el elemento 3
-  Retorno obtenido ERROR, se esperaba OK
+  Comentario: Se encontró el elemento 3 y se esperaba el elemento 3
+  Retorno obtenido OK
 ---------------------------------------------------------------------
 
 ----------------------------- Testeo --------------------------------
-  Comentario: Se encontró el elemento 0 y se esperaba el elemento 5
-  Retorno obtenido ERROR, se esperaba OK
+  Comentario: Se encontró el elemento 5 y se esperaba el elemento 5
+  Retorno obtenido OK
 ---------------------------------------------------------------------
 
 ----------------------------- Testeo --------------------------------
-  Comentario: Se encontró el elemento 0 y se esperaba el elemento 10
-  Retorno obtenido ERROR, se esperaba OK
+  Comentario: Se encontró el elemento 10 y se esperaba el elemento 10
+  Retorno obtenido OK
 ---------------------------------------------------------------------
 
 ----------------------------- Testeo --------------------------------
-  Comentario: Se encontró el elemento 0 y se esperaba el elemento 11
-  Retorno obtenido ERROR, se esperaba OK
+  Comentario: Se encontró el elemento 11 y se esperaba el elemento 11
+  Retorno obtenido OK
 ---------------------------------------------------------------------
 
 ----------------------------- Testeo --------------------------------
-  Comentario: Se encontró el elemento 0 y se esperaba el elemento 12
-  Retorno obtenido ERROR, se esperaba OK
+  Comentario: Se encontró el elemento 12 y se esperaba el elemento 12
+  Retorno obtenido OK
 ---------------------------------------------------------------------
 
 ----------------------------- Testeo --------------------------------
-  Comentario: Se encontró el elemento 0 y se esperaba el elemento 14
-  Retorno obtenido ERROR, se esperaba OK
+  Comentario: Se encontró el elemento 14 y se esperaba el elemento 14
+  Retorno obtenido OK
 ---------------------------------------------------------------------
 
 ----------------------------- Testeo --------------------------------
-  Comentario: Se encontró el elemento 0 y se esperaba el elemento 16
-  Retorno obtenido ERROR, se esperaba OK
+  Comentario: Se encontró el elemento 16 y se esperaba el elemento 16
+  Retorno obtenido OK
 ---------------------------------------------------------------------
 
 
@@ -619,7 +619,7 @@
 ---------------------------------------------------------------------
 
   +------------------------------+
-    Pruebas Correctas : 3
-    Pruebas Incorrectas: 107
+    Pruebas Correctas : 65
+    Pruebas Incorrectas: 45
     Pruebas NI: 0
   +------------------------------+

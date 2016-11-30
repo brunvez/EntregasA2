@@ -12,35 +12,79 @@ Iterador<Iterador<Puntero<ICiudad>>> Sistema::Viajero(Array<Puntero<ICiudad>> &c
 	return NULL; //Retorno por defecto
 }
 
-Array<nat> Sistema::Intercalar(Array<nat> &arreglo, nat i, nat m, nat d) {
-	/*
-   Codigo de implementacion de la solucion
-   */
-	return Array<nat>(arreglo.Largo);  //Retorno por defecto
-}
-
-enum direccion { arriba, abajo, izquierda, derecha, centro };
-
-Iterador<Tupla<nat, nat>> LaberintoBT(Tupla<nat, nat> actual, Tupla<nat, nat> &fin,
-	Matriz<nat> &laberinto, int& minCambios, int& actualCambios, Puntero<LinkedList<Tupla<nat, nat>>> movimientos) {
-	if (actual == fin) {
-		if (actualCambios < minCambios) {
-			minCambios = actualCambios;
-			movimientos->AddLast(actual);
-			return movimientos->GetIterator();
+Array<nat> Sistema::Intercalar(Array<nat> &arr, nat i, nat m, nat d) {
+	Array<nat> aux(d - i + 1);
+	int itDer = i;
+	int itIzq = m + 1;
+	int itAux = 0;
+	while (itDer <= (int)m && itIzq <= (int)d) {
+		if (arr[itIzq] < arr[itDer]) {
+			aux[itAux++] = arr[itIzq++];
+		} else {
+			aux[itAux++] = arr[itDer++];
 		}
 	}
-	int dx[] = { -1, 0, 1,  0 };
-	int dy[] = { 0, 1, 0, -1 };
+	while (itDer <= (int)m) {
+		aux[itAux++] = arr[itDer++];
+	}
+	while (itIzq <= (int)d) {
+		aux[itAux++] = arr[itIzq++];
+	}
 
-	return NULL;
+	for (int j = i; j <= (int)d; j++) {
+		arr[j] = aux[j - i];
+	}
+	return arr;  //Retorno por defecto
+}
+
+enum Direccion { arriba, abajo, izquierda, derecha, centro };
+
+Direccion CalcularNuevaDireccion(Tupla<nat, nat> actual, Tupla<nat, nat> sig) {
+	if (actual.Dato1 < sig.Dato1) {
+		return arriba;
+	} else if (actual.Dato1 > sig.Dato1) {
+		return abajo;
+	} else if (actual.Dato2 < sig.Dato2) {
+		return izquierda;
+	} else if (actual.Dato2 > sig.Dato2) {
+		return derecha;
+	} else {
+		assert(false);
+		return centro;
+	}
+}
+
+void LaberintoBT(Tupla<nat, nat> actual, Tupla<nat, nat> &fin,
+	Matriz<nat> &laberinto, int &minCambios, int actualCambios, Puntero<LinkedList<Tupla<nat, nat>>> movimientos, Array<Tupla<nat, nat>> &mejor, Direccion dir) {
+	movimientos->AddLast(actual);
+	laberinto[actual.Dato1][actual.Dato2] = 0;
+	if (actual == fin) {
+		if (actualCambios < minCambios) {
+			mejor = movimientos->ToArray();
+			minCambios = actualCambios;
+		}
+	} else {
+		int dy[] = { 1, -1, 0, 0 };
+		int dx[] = { 0, 0, 1, -1 };
+		for (int i = 0; i < 4; i++) {
+			Tupla<int, int> pos(actual.Dato1 + dy[i], actual.Dato2 + dx[i]);
+			if (pos.Dato1 < (int)laberinto.Largo && pos.Dato1 >= 0 && (int)laberinto.Ancho > pos.Dato2 && pos.Dato2 >= 0 && laberinto[pos.Dato1][pos.Dato2] != 0) {
+				Direccion nuevaDir = CalcularNuevaDireccion(actual, pos);
+				int incrementoDir = nuevaDir != dir ? 1 : 0;
+				LaberintoBT(pos, fin, laberinto, minCambios, actualCambios + incrementoDir, movimientos, mejor, nuevaDir);
+			}
+		}
+	}
+	movimientos->Remove(actual);
+	laberinto[actual.Dato1][actual.Dato2] = 1;
 }
 
 Iterador<Tupla<nat, nat>> Sistema::Laberinto(Tupla<nat, nat> &inicio, Tupla<nat, nat> &fin, Matriz<nat> &laberinto) {
-	/*
-	Codigo de implementacion de la solucion
-	*/
-	return NULL;  //Retorno por defecto
+	Array<Tupla<nat, nat>> mejor;
+	Puntero<LinkedList<Tupla<nat, nat>>> movimientos = new LinkedList<Tupla<nat, nat>>();
+	int minCambios = INT16_MAX;
+	LaberintoBT(inicio, fin, laberinto, minCambios, 0, movimientos, mejor, centro);
+	return mejor.ObtenerIterador();  //Retorno por defecto
 }
 
 Array<nat> Sistema::Degustacion(Array<Producto> productos, nat maxDinero, nat maxCalorias, nat maxAlcohol) {
@@ -105,10 +149,7 @@ void CaminoCaballoBT(Tupla<int, int> actual, Tupla<int, int> destino, Matriz<int
 			int incrementoP = casilla == 1 ? 1 : 0;
 			for (int i = 0; i < 8; i++) {
 				Tupla<int, int> pos(actual.Dato1 + dy[i], actual.Dato2 + dx[i]);
-				int a = pos.Dato1;
-				int b = pos.Dato2;
 				if (pos.Dato1 < (int)tablero.Largo && pos.Dato1 >= 0 && (int)tablero.Largo > pos.Dato2 && pos.Dato2 >= 0 && tablero[pos.Dato1][pos.Dato2] != -1) {
-					//int incrementoP = CantidadPasadas(actual, dx[i], dy[i], pos, tablero);
 					CaminoCaballoBT(pos, destino, tablero, pFaltan - incrementoP, listaActual, mejores);
 				}
 			}
