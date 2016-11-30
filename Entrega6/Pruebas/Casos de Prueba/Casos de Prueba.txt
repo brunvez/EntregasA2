@@ -1,0 +1,625 @@
+********************************************* Pruebas Laberinto OK *********************************************
+
+
+
+----------------------------- Testeo --------------------------------
+  Comentario: Falta el camino 3,1
+  Retorno obtenido ERROR, se esperaba OK
+---------------------------------------------------------------------
+
+----------------------------- Testeo --------------------------------
+  Comentario: Falta el camino 4,1
+  Retorno obtenido ERROR, se esperaba OK
+---------------------------------------------------------------------
+
+----------------------------- Testeo --------------------------------
+  Comentario: Falta el camino 5,1
+  Retorno obtenido ERROR, se esperaba OK
+---------------------------------------------------------------------
+
+----------------------------- Testeo --------------------------------
+  Comentario: Falta el camino 6,1
+  Retorno obtenido ERROR, se esperaba OK
+---------------------------------------------------------------------
+
+----------------------------- Testeo --------------------------------
+  Comentario: Falta el camino 7,1
+  Retorno obtenido ERROR, se esperaba OK
+---------------------------------------------------------------------
+
+----------------------------- Testeo --------------------------------
+  Comentario: Falta el camino 8,1
+  Retorno obtenido ERROR, se esperaba OK
+---------------------------------------------------------------------
+
+----------------------------- Testeo --------------------------------
+  Comentario: Falta el camino 9,1
+  Retorno obtenido ERROR, se esperaba OK
+---------------------------------------------------------------------
+
+----------------------------- Testeo --------------------------------
+  Comentario: Falta el camino 10,1
+  Retorno obtenido ERROR, se esperaba OK
+---------------------------------------------------------------------
+
+----------------------------- Testeo --------------------------------
+  Comentario: Falta el camino 10,2
+  Retorno obtenido ERROR, se esperaba OK
+---------------------------------------------------------------------
+
+----------------------------- Testeo --------------------------------
+  Comentario: Falta el camino 10,3
+  Retorno obtenido ERROR, se esperaba OK
+---------------------------------------------------------------------
+
+----------------------------- Testeo --------------------------------
+  Comentario: Falta el camino 10,4
+  Retorno obtenido ERROR, se esperaba OK
+---------------------------------------------------------------------
+
+----------------------------- Testeo --------------------------------
+  Comentario: Falta el camino 10,5
+  Retorno obtenido ERROR, se esperaba OK
+---------------------------------------------------------------------
+
+----------------------------- Testeo --------------------------------
+  Comentario: Falta el camino 10,6
+  Retorno obtenido ERROR, se esperaba OK
+---------------------------------------------------------------------
+
+----------------------------- Testeo --------------------------------
+  Comentario: Falta el camino 3,1
+  Retorno obtenido ERROR, se esperaba OK
+---------------------------------------------------------------------
+
+----------------------------- Testeo --------------------------------
+  Comentario: Falta el camino 3,2
+  Retorno obtenido ERROR, se esperaba OK
+---------------------------------------------------------------------
+
+----------------------------- Testeo --------------------------------
+  Comentario: Falta el camino 3,3
+  Retorno obtenido ERROR, se esperaba OK
+---------------------------------------------------------------------
+
+----------------------------- Testeo --------------------------------
+  Comentario: Falta el camino 4,3
+  Retorno obtenido ERROR, se esperaba OK
+---------------------------------------------------------------------
+
+----------------------------- Testeo --------------------------------
+  Comentario: Falta el camino 5,3
+  Retorno obtenido ERROR, se esperaba OK
+---------------------------------------------------------------------
+
+----------------------------- Testeo --------------------------------
+  Comentario: Falta el camino 6,3
+  Retorno obtenido ERROR, se esperaba OK
+---------------------------------------------------------------------
+
+----------------------------- Testeo --------------------------------
+  Comentario: Falta el camino 6,4
+  Retorno obtenido ERROR, se esperaba OK
+---------------------------------------------------------------------
+
+----------------------------- Testeo --------------------------------
+  Comentario: Falta el camino 6,5
+  Retorno obtenido ERROR, se esperaba OK
+---------------------------------------------------------------------
+
+----------------------------- Testeo --------------------------------
+  Comentario: Falta el camino 6,6
+  Retorno obtenido ERROR, se esperaba OK
+---------------------------------------------------------------------
+
+----------------------------- Testeo --------------------------------
+  Comentario: Falta el camino 5,6
+  Retorno obtenido ERROR, se esperaba OK
+---------------------------------------------------------------------
+
+----------------------------- Testeo --------------------------------
+  Comentario: Falta el camino 4,6
+  Retorno obtenido ERROR, se esperaba OK
+---------------------------------------------------------------------
+
+
+
+********************************************* Pruebas Viajero OK *********************************************
+
+
+
+----------------------------- Testeo --------------------------------
+  Comentario: Falta el itinerario Montevideo-Punta del Este-Salto-Artigas
+  Retorno obtenido ERROR, se esperaba OK
+---------------------------------------------------------------------
+
+----------------------------- Testeo --------------------------------
+  Comentario: Falta el itinerario Punta del Este-Salto-Artigas-Rocha-Canelones
+  Retorno obtenido ERROR, se esperaba OK
+---------------------------------------------------------------------
+
+----------------------------- Testeo --------------------------------
+  Comentario: Falta el itinerario Punta del Este-Salto-Artigas-Paysandu-Canelones
+  Retorno obtenido ERROR, se esperaba OK
+---------------------------------------------------------------------
+
+----------------------------- Testeo --------------------------------
+  Comentario: Falta el itinerario Punta del Este-Montevideo-Artigas-Rocha-Canelones
+  Retorno obtenido ERROR, se esperaba OK
+---------------------------------------------------------------------
+
+----------------------------- Testeo --------------------------------
+  Comentario: Falta el itinerario Punta del Este-Montevideo-Artigas-Paysandu-Canelones
+  Retorno obtenido ERROR, se esperaba OK
+---------------------------------------------------------------------
+
+----------------------------- Testeo --------------------------------
+  Comentario: Falta el itinerario Paysandu-Montevideo-Rocha
+  Retorno obtenido ERROR, se esperaba OK
+---------------------------------------------------------------------
+
+
+
+********************************************* Pruebas Intercalar OK *********************************************
+
+
+
+----------------------------- Testeo --------------------------------
+  Comentario: Se encontró el elemento 0 y se esperaba el elemento 31
+  Retorno obtenido ERROR, se esperaba OK
+---------------------------------------------------------------------
+
+----------------------------- Testeo --------------------------------
+  Comentario: Se encontró el elemento 0 y se esperaba el elemento 24
+  Retorno obtenido ERROR, se esperaba OK
+---------------------------------------------------------------------
+
+----------------------------- Testeo --------------------------------
+  Comentario: Se encontró el elemento 0 y se esperaba el elemento 2
+  Retorno obtenido ERROR, se esperaba OK
+---------------------------------------------------------------------
+
+----------------------------- Testeo --------------------------------
+  Comentario: Se encontró el elemento 0 y se esperaba el elemento 3
+  Retorno obtenido ERROR, se esperaba OK
+---------------------------------------------------------------------
+
+----------------------------- Testeo --------------------------------
+  Comentario: Se encontró el elemento 0 y se esperaba el elemento 4
+  Retorno obtenido ERROR, se esperaba OK
+---------------------------------------------------------------------
+
+----------------------------- Testeo --------------------------------
+  Comentario: Se encontró el elemento 0 y se esperaba el elemento 6
+  Retorno obtenido ERROR, se esperaba OK
+---------------------------------------------------------------------
+
+----------------------------- Testeo --------------------------------
+  Comentario: Se encontró el elemento 0 y se esperaba el elemento 7
+  Retorno obtenido ERROR, se esperaba OK
+---------------------------------------------------------------------
+
+----------------------------- Testeo --------------------------------
+  Comentario: Se encontró el elemento 0 y se esperaba el elemento 9
+  Retorno obtenido ERROR, se esperaba OK
+---------------------------------------------------------------------
+
+----------------------------- Testeo --------------------------------
+  Comentario: Se encontró el elemento 0 y se esperaba el elemento 25
+  Retorno obtenido ERROR, se esperaba OK
+---------------------------------------------------------------------
+
+----------------------------- Testeo --------------------------------
+  Comentario: Se encontró el elemento 0 y se esperaba el elemento 28
+  Retorno obtenido ERROR, se esperaba OK
+---------------------------------------------------------------------
+
+----------------------------- Testeo --------------------------------
+  Comentario: Se encontró el elemento 0 y se esperaba el elemento 5
+  Retorno obtenido ERROR, se esperaba OK
+---------------------------------------------------------------------
+
+----------------------------- Testeo --------------------------------
+  Comentario: Se encontró el elemento 0 y se esperaba el elemento 1
+  Retorno obtenido ERROR, se esperaba OK
+---------------------------------------------------------------------
+
+----------------------------- Testeo --------------------------------
+  Comentario: Se encontró el elemento 0 y se esperaba el elemento 1
+  Retorno obtenido ERROR, se esperaba OK
+---------------------------------------------------------------------
+
+----------------------------- Testeo --------------------------------
+  Comentario: Se encontró el elemento 0 y se esperaba el elemento 2
+  Retorno obtenido ERROR, se esperaba OK
+---------------------------------------------------------------------
+
+----------------------------- Testeo --------------------------------
+  Comentario: Se encontró el elemento 0 y se esperaba el elemento 4
+  Retorno obtenido ERROR, se esperaba OK
+---------------------------------------------------------------------
+
+----------------------------- Testeo --------------------------------
+  Comentario: Se encontró el elemento 0 y se esperaba el elemento 5
+  Retorno obtenido ERROR, se esperaba OK
+---------------------------------------------------------------------
+
+----------------------------- Testeo --------------------------------
+  Comentario: Se encontró el elemento 0 y se esperaba el elemento 9
+  Retorno obtenido ERROR, se esperaba OK
+---------------------------------------------------------------------
+
+----------------------------- Testeo --------------------------------
+  Comentario: Se encontró el elemento 0 y se esperaba el elemento 10
+  Retorno obtenido ERROR, se esperaba OK
+---------------------------------------------------------------------
+
+----------------------------- Testeo --------------------------------
+  Comentario: Se encontró el elemento 0 y se esperaba el elemento 12
+  Retorno obtenido ERROR, se esperaba OK
+---------------------------------------------------------------------
+
+----------------------------- Testeo --------------------------------
+  Comentario: Se encontró el elemento 0 y se esperaba el elemento 14
+  Retorno obtenido ERROR, se esperaba OK
+---------------------------------------------------------------------
+
+----------------------------- Testeo --------------------------------
+  Comentario: Se encontró el elemento 0 y se esperaba el elemento 15
+  Retorno obtenido ERROR, se esperaba OK
+---------------------------------------------------------------------
+
+----------------------------- Testeo --------------------------------
+  Comentario: Se encontró el elemento 0 y se esperaba el elemento 16
+  Retorno obtenido ERROR, se esperaba OK
+---------------------------------------------------------------------
+
+----------------------------- Testeo --------------------------------
+  Comentario: Se encontró el elemento 0 y se esperaba el elemento 22
+  Retorno obtenido ERROR, se esperaba OK
+---------------------------------------------------------------------
+
+----------------------------- Testeo --------------------------------
+  Comentario: Se encontró el elemento 0 y se esperaba el elemento 3
+  Retorno obtenido ERROR, se esperaba OK
+---------------------------------------------------------------------
+
+----------------------------- Testeo --------------------------------
+  Comentario: Se encontró el elemento 0 y se esperaba el elemento 38
+  Retorno obtenido ERROR, se esperaba OK
+---------------------------------------------------------------------
+
+----------------------------- Testeo --------------------------------
+  Comentario: Se encontró el elemento 0 y se esperaba el elemento 1
+  Retorno obtenido ERROR, se esperaba OK
+---------------------------------------------------------------------
+
+----------------------------- Testeo --------------------------------
+  Comentario: Se encontró el elemento 0 y se esperaba el elemento 4
+  Retorno obtenido ERROR, se esperaba OK
+---------------------------------------------------------------------
+
+----------------------------- Testeo --------------------------------
+  Comentario: Se encontró el elemento 0 y se esperaba el elemento 9
+  Retorno obtenido ERROR, se esperaba OK
+---------------------------------------------------------------------
+
+----------------------------- Testeo --------------------------------
+  Comentario: Se encontró el elemento 0 y se esperaba el elemento 15
+  Retorno obtenido ERROR, se esperaba OK
+---------------------------------------------------------------------
+
+----------------------------- Testeo --------------------------------
+  Comentario: Se encontró el elemento 0 y se esperaba el elemento 22
+  Retorno obtenido ERROR, se esperaba OK
+---------------------------------------------------------------------
+
+----------------------------- Testeo --------------------------------
+  Comentario: Se encontró el elemento 0 y se esperaba el elemento 2
+  Retorno obtenido ERROR, se esperaba OK
+---------------------------------------------------------------------
+
+----------------------------- Testeo --------------------------------
+  Comentario: Se encontró el elemento 0 y se esperaba el elemento 3
+  Retorno obtenido ERROR, se esperaba OK
+---------------------------------------------------------------------
+
+----------------------------- Testeo --------------------------------
+  Comentario: Se encontró el elemento 0 y se esperaba el elemento 5
+  Retorno obtenido ERROR, se esperaba OK
+---------------------------------------------------------------------
+
+----------------------------- Testeo --------------------------------
+  Comentario: Se encontró el elemento 0 y se esperaba el elemento 10
+  Retorno obtenido ERROR, se esperaba OK
+---------------------------------------------------------------------
+
+----------------------------- Testeo --------------------------------
+  Comentario: Se encontró el elemento 0 y se esperaba el elemento 11
+  Retorno obtenido ERROR, se esperaba OK
+---------------------------------------------------------------------
+
+----------------------------- Testeo --------------------------------
+  Comentario: Se encontró el elemento 0 y se esperaba el elemento 12
+  Retorno obtenido ERROR, se esperaba OK
+---------------------------------------------------------------------
+
+----------------------------- Testeo --------------------------------
+  Comentario: Se encontró el elemento 0 y se esperaba el elemento 14
+  Retorno obtenido ERROR, se esperaba OK
+---------------------------------------------------------------------
+
+----------------------------- Testeo --------------------------------
+  Comentario: Se encontró el elemento 0 y se esperaba el elemento 16
+  Retorno obtenido ERROR, se esperaba OK
+---------------------------------------------------------------------
+
+
+
+********************************************* Pruebas Degustacion OK *********************************************
+
+
+
+----------------------------- Testeo --------------------------------
+  Comentario: Se obtuvo una suma de preferencias de valor 0 y se esperaba de valor 54
+  Retorno obtenido ERROR, se esperaba OK
+---------------------------------------------------------------------
+
+----------------------------- Testeo --------------------------------
+  Comentario: Se obtuvo una suma de preferencias de valor 0 y se esperaba de valor 89
+  Retorno obtenido ERROR, se esperaba OK
+---------------------------------------------------------------------
+
+----------------------------- Testeo --------------------------------
+  Comentario: Se obtuvo una suma de preferencias de valor 0 y se esperaba de valor 120
+  Retorno obtenido ERROR, se esperaba OK
+---------------------------------------------------------------------
+
+
+
+********************************************* Pruebas Ejercicio Viajero2 OK *********************************************
+
+
+
+----------------------------- Testeo --------------------------------
+  Comentario: Viajero 2
+  Retorno obtenido NO_IMPLEMENTADA, se esperaba OK
+---------------------------------------------------------------------
+
+----------------------------- Testeo --------------------------------
+  Comentario: Viajero 2
+  Retorno obtenido NO_IMPLEMENTADA, se esperaba OK
+---------------------------------------------------------------------
+
+
+
+********************************************* Pruebas Ejercicio Protección Animales OK *********************************************
+
+
+
+----------------------------- Testeo --------------------------------
+  Comentario: Proteccion de animales
+  Retorno obtenido NO_IMPLEMENTADA, se esperaba OK
+---------------------------------------------------------------------
+
+----------------------------- Testeo --------------------------------
+  Comentario: Proteccion de animales
+  Retorno obtenido NO_IMPLEMENTADA, se esperaba OK
+---------------------------------------------------------------------
+
+----------------------------- Testeo --------------------------------
+  Comentario: Proteccion de animales
+  Retorno obtenido NO_IMPLEMENTADA, se esperaba OK
+---------------------------------------------------------------------
+
+----------------------------- Testeo --------------------------------
+  Comentario: Proteccion de animales
+  Retorno obtenido NO_IMPLEMENTADA, se esperaba OK
+---------------------------------------------------------------------
+
+----------------------------- Testeo --------------------------------
+  Comentario: Proteccion de animales
+  Retorno obtenido NO_IMPLEMENTADA, se esperaba OK
+---------------------------------------------------------------------
+
+----------------------------- Testeo --------------------------------
+  Comentario: Proteccion de animales
+  Retorno obtenido NO_IMPLEMENTADA, se esperaba OK
+---------------------------------------------------------------------
+
+
+
+********************************************* Pruebas Ejercicio QuickSort OK *********************************************
+
+
+
+----------------------------- Testeo --------------------------------
+  Comentario: Falta elemento '1'
+  Retorno obtenido ERROR, se esperaba OK
+---------------------------------------------------------------------
+
+----------------------------- Testeo --------------------------------
+  Comentario: Falta elemento '7'
+  Retorno obtenido ERROR, se esperaba OK
+---------------------------------------------------------------------
+
+----------------------------- Testeo --------------------------------
+  Comentario: Falta elemento '13'
+  Retorno obtenido ERROR, se esperaba OK
+---------------------------------------------------------------------
+
+----------------------------- Testeo --------------------------------
+  Comentario: Falta elemento '17'
+  Retorno obtenido ERROR, se esperaba OK
+---------------------------------------------------------------------
+
+----------------------------- Testeo --------------------------------
+  Comentario: Falta elemento '23'
+  Retorno obtenido ERROR, se esperaba OK
+---------------------------------------------------------------------
+
+----------------------------- Testeo --------------------------------
+  Comentario: Falta elemento '27'
+  Retorno obtenido ERROR, se esperaba OK
+---------------------------------------------------------------------
+
+----------------------------- Testeo --------------------------------
+  Comentario: Falta elemento '31'
+  Retorno obtenido ERROR, se esperaba OK
+---------------------------------------------------------------------
+
+----------------------------- Testeo --------------------------------
+  Comentario: Falta elemento '7'
+  Retorno obtenido ERROR, se esperaba OK
+---------------------------------------------------------------------
+
+----------------------------- Testeo --------------------------------
+  Comentario: Falta elemento '16'
+  Retorno obtenido ERROR, se esperaba OK
+---------------------------------------------------------------------
+
+----------------------------- Testeo --------------------------------
+  Comentario: Falta elemento '25'
+  Retorno obtenido ERROR, se esperaba OK
+---------------------------------------------------------------------
+
+----------------------------- Testeo --------------------------------
+  Comentario: Falta elemento '34'
+  Retorno obtenido ERROR, se esperaba OK
+---------------------------------------------------------------------
+
+----------------------------- Testeo --------------------------------
+  Comentario: Falta elemento '37'
+  Retorno obtenido ERROR, se esperaba OK
+---------------------------------------------------------------------
+
+----------------------------- Testeo --------------------------------
+  Comentario: Falta elemento '70'
+  Retorno obtenido ERROR, se esperaba OK
+---------------------------------------------------------------------
+
+----------------------------- Testeo --------------------------------
+  Comentario: Falta elemento '77'
+  Retorno obtenido ERROR, se esperaba OK
+---------------------------------------------------------------------
+
+----------------------------- Testeo --------------------------------
+  Comentario: Falta elemento '1'
+  Retorno obtenido ERROR, se esperaba OK
+---------------------------------------------------------------------
+
+----------------------------- Testeo --------------------------------
+  Comentario: Falta elemento '7'
+  Retorno obtenido ERROR, se esperaba OK
+---------------------------------------------------------------------
+
+----------------------------- Testeo --------------------------------
+  Comentario: Falta elemento '16'
+  Retorno obtenido ERROR, se esperaba OK
+---------------------------------------------------------------------
+
+----------------------------- Testeo --------------------------------
+  Comentario: Falta elemento '34'
+  Retorno obtenido ERROR, se esperaba OK
+---------------------------------------------------------------------
+
+----------------------------- Testeo --------------------------------
+  Comentario: Falta elemento '37'
+  Retorno obtenido ERROR, se esperaba OK
+---------------------------------------------------------------------
+
+----------------------------- Testeo --------------------------------
+  Comentario: Falta elemento '77'
+  Retorno obtenido ERROR, se esperaba OK
+---------------------------------------------------------------------
+
+----------------------------- Testeo --------------------------------
+  Comentario: Falta elemento '80'
+  Retorno obtenido ERROR, se esperaba OK
+---------------------------------------------------------------------
+
+----------------------------- Testeo --------------------------------
+  Comentario: Falta elemento '111'
+  Retorno obtenido ERROR, se esperaba OK
+---------------------------------------------------------------------
+
+
+
+********************************************* Pruebas Ejercicio Camino Caballo OK *********************************************
+
+
+
+
+
+********************************************* Pruebas Caminos Caballo OK *********************************************
+
+
+
+----------------------------- Testeo --------------------------------
+  Comentario: Se obtuvo correctamente 0,0-1,2
+  Retorno obtenido OK
+---------------------------------------------------------------------
+
+
+
+********************************************* Pruebas Caminos Caballo OK *********************************************
+
+
+
+----------------------------- Testeo --------------------------------
+  Comentario: Se obtuvo correctamente 3,1-1,0-2,2-1,4-3,5
+  Retorno obtenido OK
+---------------------------------------------------------------------
+
+----------------------------- Testeo --------------------------------
+  Comentario: Se obtuvo correctamente 3,1-1,0-0,2-1,4-3,5
+  Retorno obtenido OK
+---------------------------------------------------------------------
+
+
+
+********************************************* Pruebas Ejercicio Optimizar Granja OK *********************************************
+
+
+
+----------------------------- Testeo --------------------------------
+  Comentario: Proteccion de animales
+  Retorno obtenido NO_IMPLEMENTADA, se esperaba OK
+---------------------------------------------------------------------
+
+----------------------------- Testeo --------------------------------
+  Comentario: Proteccion de animales
+  Retorno obtenido NO_IMPLEMENTADA, se esperaba OK
+---------------------------------------------------------------------
+
+----------------------------- Testeo --------------------------------
+  Comentario: Proteccion de animales
+  Retorno obtenido NO_IMPLEMENTADA, se esperaba OK
+---------------------------------------------------------------------
+
+----------------------------- Testeo --------------------------------
+  Comentario: Proteccion de animales
+  Retorno obtenido NO_IMPLEMENTADA, se esperaba OK
+---------------------------------------------------------------------
+
+----------------------------- Testeo --------------------------------
+  Comentario: Proteccion de animales
+  Retorno obtenido NO_IMPLEMENTADA, se esperaba OK
+---------------------------------------------------------------------
+
+
+
+********************************************* Pruebas Ejercicio Inscribir Materias OK *********************************************
+
+
+
+----------------------------- Testeo --------------------------------
+  Comentario: Materias
+  Retorno obtenido NO_IMPLEMENTADA, se esperaba OK
+---------------------------------------------------------------------
+
+  +------------------------------+
+    Pruebas Correctas : 3
+    Pruebas Incorrectas: 107
+    Pruebas NI: 0
+  +------------------------------+

@@ -1,0 +1,6 @@
+
+  +------------------------------+
+    Pruebas Correctas : 4
+    Pruebas Incorrectas: 107
+    Pruebas NI: 0
+  +------------------------------+
