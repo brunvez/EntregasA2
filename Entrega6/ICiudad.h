@@ -5,10 +5,9 @@
 
 typedef unsigned int nat;
 
-class ICiudad abstract
-{
+class ICiudad abstract {
 public:
-	virtual ~ICiudad(){}
+	virtual ~ICiudad() {}
 
 	//PRE: -
 	//POS: Devuelve la el nombre de la Ciudad

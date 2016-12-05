@@ -361,18 +361,18 @@
 
 
 ----------------------------- Testeo --------------------------------
-  Comentario: Se obtuvo una suma de preferencias de valor 0 y se esperaba de valor 54
-  Retorno obtenido ERROR, se esperaba OK
+  Comentario: Se obtuvo una suma de preferencias de valor 54 y se esperaba de valor 54
+  Retorno obtenido OK
 ---------------------------------------------------------------------
 
 ----------------------------- Testeo --------------------------------
-  Comentario: Se obtuvo una suma de preferencias de valor 0 y se esperaba de valor 89
-  Retorno obtenido ERROR, se esperaba OK
+  Comentario: Se obtuvo una suma de preferencias de valor 89 y se esperaba de valor 89
+  Retorno obtenido OK
 ---------------------------------------------------------------------
 
 ----------------------------- Testeo --------------------------------
-  Comentario: Se obtuvo una suma de preferencias de valor 0 y se esperaba de valor 120
-  Retorno obtenido ERROR, se esperaba OK
+  Comentario: Se obtuvo una suma de preferencias de valor 120 y se esperaba de valor 120
+  Retorno obtenido OK
 ---------------------------------------------------------------------
 
 
@@ -434,113 +434,113 @@
 
 
 ----------------------------- Testeo --------------------------------
-  Comentario: Falta elemento '1'
-  Retorno obtenido ERROR, se esperaba OK
+  Comentario: Se obtuvo elemento '1'
+  Retorno obtenido OK
 ---------------------------------------------------------------------
 
 ----------------------------- Testeo --------------------------------
-  Comentario: Falta elemento '7'
-  Retorno obtenido ERROR, se esperaba OK
+  Comentario: Se obtuvo elemento '7'
+  Retorno obtenido OK
 ---------------------------------------------------------------------
 
 ----------------------------- Testeo --------------------------------
-  Comentario: Falta elemento '13'
-  Retorno obtenido ERROR, se esperaba OK
+  Comentario: Se obtuvo elemento '13'
+  Retorno obtenido OK
 ---------------------------------------------------------------------
 
 ----------------------------- Testeo --------------------------------
-  Comentario: Falta elemento '17'
-  Retorno obtenido ERROR, se esperaba OK
+  Comentario: Se obtuvo elemento '17'
+  Retorno obtenido OK
 ---------------------------------------------------------------------
 
 ----------------------------- Testeo --------------------------------
-  Comentario: Falta elemento '23'
-  Retorno obtenido ERROR, se esperaba OK
+  Comentario: Se obtuvo elemento '23'
+  Retorno obtenido OK
 ---------------------------------------------------------------------
 
 ----------------------------- Testeo --------------------------------
-  Comentario: Falta elemento '27'
-  Retorno obtenido ERROR, se esperaba OK
+  Comentario: Se obtuvo elemento '27'
+  Retorno obtenido OK
 ---------------------------------------------------------------------
 
 ----------------------------- Testeo --------------------------------
-  Comentario: Falta elemento '31'
-  Retorno obtenido ERROR, se esperaba OK
+  Comentario: Se obtuvo elemento '31'
+  Retorno obtenido OK
 ---------------------------------------------------------------------
 
 ----------------------------- Testeo --------------------------------
-  Comentario: Falta elemento '7'
-  Retorno obtenido ERROR, se esperaba OK
+  Comentario: Se obtuvo elemento '7'
+  Retorno obtenido OK
 ---------------------------------------------------------------------
 
 ----------------------------- Testeo --------------------------------
-  Comentario: Falta elemento '16'
-  Retorno obtenido ERROR, se esperaba OK
+  Comentario: Se obtuvo elemento '16'
+  Retorno obtenido OK
 ---------------------------------------------------------------------
 
 ----------------------------- Testeo --------------------------------
-  Comentario: Falta elemento '25'
-  Retorno obtenido ERROR, se esperaba OK
+  Comentario: Se obtuvo elemento '25'
+  Retorno obtenido OK
 ---------------------------------------------------------------------
 
 ----------------------------- Testeo --------------------------------
-  Comentario: Falta elemento '34'
-  Retorno obtenido ERROR, se esperaba OK
+  Comentario: Se obtuvo elemento '34'
+  Retorno obtenido OK
 ---------------------------------------------------------------------
 
 ----------------------------- Testeo --------------------------------
-  Comentario: Falta elemento '37'
-  Retorno obtenido ERROR, se esperaba OK
+  Comentario: Se obtuvo elemento '37'
+  Retorno obtenido OK
 ---------------------------------------------------------------------
 
 ----------------------------- Testeo --------------------------------
-  Comentario: Falta elemento '70'
-  Retorno obtenido ERROR, se esperaba OK
+  Comentario: Se obtuvo elemento '70'
+  Retorno obtenido OK
 ---------------------------------------------------------------------
 
 ----------------------------- Testeo --------------------------------
-  Comentario: Falta elemento '77'
-  Retorno obtenido ERROR, se esperaba OK
+  Comentario: Se obtuvo elemento '77'
+  Retorno obtenido OK
 ---------------------------------------------------------------------
 
 ----------------------------- Testeo --------------------------------
-  Comentario: Falta elemento '1'
-  Retorno obtenido ERROR, se esperaba OK
+  Comentario: Se obtuvo elemento '1'
+  Retorno obtenido OK
 ---------------------------------------------------------------------
 
 ----------------------------- Testeo --------------------------------
-  Comentario: Falta elemento '7'
-  Retorno obtenido ERROR, se esperaba OK
+  Comentario: Se obtuvo elemento '7'
+  Retorno obtenido OK
 ---------------------------------------------------------------------
 
 ----------------------------- Testeo --------------------------------
-  Comentario: Falta elemento '16'
-  Retorno obtenido ERROR, se esperaba OK
+  Comentario: Se obtuvo elemento '16'
+  Retorno obtenido OK
 ---------------------------------------------------------------------
 
 ----------------------------- Testeo --------------------------------
-  Comentario: Falta elemento '34'
-  Retorno obtenido ERROR, se esperaba OK
+  Comentario: Se obtuvo elemento '34'
+  Retorno obtenido OK
 ---------------------------------------------------------------------
 
 ----------------------------- Testeo --------------------------------
-  Comentario: Falta elemento '37'
-  Retorno obtenido ERROR, se esperaba OK
+  Comentario: Se obtuvo elemento '37'
+  Retorno obtenido OK
 ---------------------------------------------------------------------
 
 ----------------------------- Testeo --------------------------------
-  Comentario: Falta elemento '77'
-  Retorno obtenido ERROR, se esperaba OK
+  Comentario: Se obtuvo elemento '77'
+  Retorno obtenido OK
 ---------------------------------------------------------------------
 
 ----------------------------- Testeo --------------------------------
-  Comentario: Falta elemento '80'
-  Retorno obtenido ERROR, se esperaba OK
+  Comentario: Se obtuvo elemento '80'
+  Retorno obtenido OK
 ---------------------------------------------------------------------
 
 ----------------------------- Testeo --------------------------------
-  Comentario: Falta elemento '111'
-  Retorno obtenido ERROR, se esperaba OK
+  Comentario: Se obtuvo elemento '111'
+  Retorno obtenido OK
 ---------------------------------------------------------------------
 
 
@@ -619,7 +619,7 @@
 ---------------------------------------------------------------------
 
   +------------------------------+
-    Pruebas Correctas : 65
-    Pruebas Incorrectas: 45
+    Pruebas Correctas : 90
+    Pruebas Incorrectas: 20
     Pruebas NI: 0
   +------------------------------+

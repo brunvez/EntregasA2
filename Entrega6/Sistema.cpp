@@ -4,12 +4,15 @@
 Sistema::Sistema() {
 
 }
+void ViajeroBT(Matriz<nat> &mapa, int ciudadActual, int ciudadLlegada, Puntero<LinkedList<int>> ciudadesPasar, Puntero<LinkedList<int>> ciudadesPasadas,
+			   nat costoActual, nat costoMax, Array<int> mejor) {
 
-Iterador<Iterador<Puntero<ICiudad>>> Sistema::Viajero(Array<Puntero<ICiudad>> &ciudadesDelMapa, Matriz<nat> &mapa, Puntero<ICiudad> &ciudadPartida, Iterador<Puntero<ICiudad>> &ciudadesPasar, nat costoMax) {
-	/*
-   Codigo de implementacion de la solucion
-   */
-	return NULL; //Retorno por defecto
+}
+
+Iterador<Iterador<Puntero<ICiudad>>> Sistema::Viajero(Array<Puntero<ICiudad>> &ciudadesDelMapa, Matriz<nat> &mapa, Puntero<ICiudad> &ciudadPartida,
+													  Iterador<Puntero<ICiudad>> &ciudadesPasar, nat costoMax) {
+
+	return NULL;
 }
 
 Array<nat> Sistema::Intercalar(Array<nat> &arr, nat i, nat m, nat d) {
@@ -55,28 +58,30 @@ Direccion CalcularNuevaDireccion(Tupla<nat, nat> actual, Tupla<nat, nat> sig) {
 }
 
 void LaberintoBT(Tupla<nat, nat> actual, Tupla<nat, nat> &fin,
-	Matriz<nat> &laberinto, int &minCambios, int actualCambios, Puntero<LinkedList<Tupla<nat, nat>>> movimientos, Array<Tupla<nat, nat>> &mejor, Direccion dir) {
-	movimientos->AddLast(actual);
-	laberinto[actual.Dato1][actual.Dato2] = 0;
-	if (actual == fin) {
-		if (actualCambios < minCambios) {
-			mejor = movimientos->ToArray();
-			minCambios = actualCambios;
-		}
-	} else {
-		int dy[] = { 1, -1, 0, 0 };
-		int dx[] = { 0, 0, 1, -1 };
-		for (int i = 0; i < 4; i++) {
-			Tupla<int, int> pos(actual.Dato1 + dy[i], actual.Dato2 + dx[i]);
-			if (pos.Dato1 < (int)laberinto.Largo && pos.Dato1 >= 0 && (int)laberinto.Ancho > pos.Dato2 && pos.Dato2 >= 0 && laberinto[pos.Dato1][pos.Dato2] != 0) {
-				Direccion nuevaDir = CalcularNuevaDireccion(actual, pos);
-				int incrementoDir = nuevaDir != dir ? 1 : 0;
-				LaberintoBT(pos, fin, laberinto, minCambios, actualCambios + incrementoDir, movimientos, mejor, nuevaDir);
+				 Matriz<nat> &laberinto, int &minCambios, int actualCambios, Puntero<LinkedList<Tupla<nat, nat>>> movimientos, Array<Tupla<nat, nat>> &mejor, Direccion dir) {
+	if (minCambios >= actualCambios) {
+		movimientos->AddLast(actual);
+		laberinto[actual.Dato1][actual.Dato2] = 0;
+		if (actual == fin) {
+			if (actualCambios < minCambios) {
+				mejor = movimientos->ToArray();
+				minCambios = actualCambios;
+			}
+		} else {
+			int dy[] = { 1, -1, 0, 0 };
+			int dx[] = { 0, 0, 1, -1 };
+			for (int i = 0; i < 4; i++) {
+				Tupla<int, int> pos(actual.Dato1 + dy[i], actual.Dato2 + dx[i]);
+				if (pos.Dato1 < (int)laberinto.Largo && pos.Dato1 >= 0 && (int)laberinto.Ancho > pos.Dato2 && pos.Dato2 >= 0 && laberinto[pos.Dato1][pos.Dato2] != 0) {
+					Direccion nuevaDir = CalcularNuevaDireccion(actual, pos);
+					int incrementoDir = nuevaDir != dir ? 1 : 0;
+					LaberintoBT(pos, fin, laberinto, minCambios, actualCambios + incrementoDir, movimientos, mejor, nuevaDir);
+				}
 			}
 		}
+		movimientos->Remove(actual);
+		laberinto[actual.Dato1][actual.Dato2] = 1;
 	}
-	movimientos->Remove(actual);
-	laberinto[actual.Dato1][actual.Dato2] = 1;
 }
 
 Iterador<Tupla<nat, nat>> Sistema::Laberinto(Tupla<nat, nat> &inicio, Tupla<nat, nat> &fin, Matriz<nat> &laberinto) {
@@ -87,11 +92,28 @@ Iterador<Tupla<nat, nat>> Sistema::Laberinto(Tupla<nat, nat> &inicio, Tupla<nat,
 	return mejor.ObtenerIterador();  //Retorno por defecto
 }
 
+void DegustacionBT(Array<Producto> &productos, int pos, int &maxPreferencia, int preferenciaActual, int maxDinero, int maxCalorias,
+				   int maxAlcohol, Array<nat> &mejorConsumidos, Array<nat> actualConsumidos) {
+	if (pos == (int)productos.Largo) {
+		if (maxAlcohol >= 0 && maxCalorias >= 0 && maxDinero >= 0 && maxPreferencia < preferenciaActual) {
+			maxPreferencia = preferenciaActual;
+			Array<nat>::Copiar(actualConsumidos, mejorConsumidos);
+		}
+	} else {
+		for (int i = 0; i <= (int)productos[pos].maxUnidades; i++) {
+			actualConsumidos[pos] = i;
+			DegustacionBT(productos, pos + 1, maxPreferencia, preferenciaActual + productos[pos].preferencia * i, maxDinero - productos[pos].precio *i,
+						  maxCalorias - productos[pos].calorias * i, maxAlcohol - productos[pos].alcohol *i, mejorConsumidos, actualConsumidos);
+		}
+	}
+}
+
 Array<nat> Sistema::Degustacion(Array<Producto> productos, nat maxDinero, nat maxCalorias, nat maxAlcohol) {
-	/*
-	Codigo de implementacion de la solucion
-	*/
-	return Array<nat>(productos.Largo);  //Retorno por defecto
+	Array<nat> consumidosMejor(productos.Largo, 0);
+	Array<nat> consumidos(productos.Largo, 0);
+	int maxPref = 0;
+	DegustacionBT(productos, 0, maxPref, 0, maxDinero, maxCalorias, maxAlcohol, consumidosMejor, consumidos);
+	return consumidosMejor;
 }
 
 Tupla<TipoRetorno, Iterador<nat>> Sistema::Viajero2(Matriz<Tupla<nat, nat, nat>> relacionesCiudades, Iterador<nat> CiudadesPasar, Iterador<nat> CiudadesNoPasar) {
@@ -106,10 +128,65 @@ Tupla<TipoRetorno, Array<nat>> Sistema::ProteccionAnimales(Array<Accion> accione
 	return Tupla<TipoRetorno, Array<nat>>();
 }
 
-Array<nat> Sistema::QuickSort(Array<nat> elementos) {
-	//Implementar.
+nat ElegirPivot(Array<nat> items, nat ini, nat fin) {
+	nat m = (fin + ini) / 2;
+	nat max = ini;
+	nat min = fin;
+	if (items[m] > items[max]) {
+		max = m;
+	}
+	if (items[fin] < items[max]) {
+		max = fin;
+	}
+	if (items[ini] < items[min]) {
+		min = ini;
+	}
+	if (ini != min && ini != max) {
+		return ini;
+	}
+	if (fin != min && ini != max) {
+		return fin;
+	}
+	return m;
+}
 
-	return Array<nat>();
+void Swap(Array<nat> arr, int pos1, int pos2) {
+	nat aux = arr[pos1];
+	arr[pos1] = arr[pos2];
+	arr[pos2] = aux;
+}
+
+void quicksort(Array<nat> arr, int left, int right) {
+	int min = (left + right) / 2;
+
+	int i = left;
+	int j = right;
+	int pivot = arr[min];
+
+	while (left<j || i<right) {
+		while ((int)arr[i]<pivot)
+			i++;
+		while ((int)arr[j]>pivot)
+			j--;
+
+		if (i <= j) {
+			Swap(arr, i, j);
+			i++;
+			j--;
+		} else {
+			if (left<j)
+				quicksort(arr, left, j);
+			if (i<right)
+				quicksort(arr, i, right);
+			return;
+		}
+	}
+}
+
+Array<nat> Sistema::QuickSort(Array<nat> elementos) {
+	quicksort(elementos, 0, elementos.Largo - 1);
+
+	return elementos;
 }
 
 int CantidadPasadas(Tupla<int, int> inicio, int dx, int dy, Tupla<int, int> final, Matriz<int> mat) {
@@ -130,7 +207,7 @@ int CantidadPasadas(Tupla<int, int> inicio, int dx, int dy, Tupla<int, int> fina
 }
 
 void CaminoCaballoBT(Tupla<int, int> actual, Tupla<int, int> destino, Matriz<int> &tablero,
-	int pFaltan, LinkedList<Tupla<int, int>> listaActual, Puntero<LinkedList<Array<Tupla<int, int>>>> mejores) {
+					 int pFaltan, LinkedList<Tupla<int, int>> listaActual, Puntero<LinkedList<Array<Tupla<int, int>>>> mejores) {
 
 	if (listaActual.Size() < 10 && (mejores->IsEmpty() || listaActual.Size() <= (int)mejores->GetFirst().Largo)) {
 		int casilla = tablero[actual.Dato1][actual.Dato2];
@@ -160,8 +237,7 @@ void CaminoCaballoBT(Tupla<int, int> actual, Tupla<int, int> destino, Matriz<int
 }
 
 Tupla<TipoRetorno, Iterador<Iterador<Tupla<int, int>>>> Sistema::CaminoCaballo(Tupla<int, int>& salida, Tupla<int, int>& destino, nat cantAPasar,
-	nat tamTablero, Iterador<Tupla<int, int>>& pasar,
-	Iterador<Tupla<int, int>>& noPasar) {
+																			   nat tamTablero, Iterador<Tupla<int, int>>& pasar, Iterador<Tupla<int, int>>& noPasar) {
 	Matriz<int> mat(tamTablero);
 	while (pasar.HayElemento()) {
 		Tupla<nat, nat> pos = pasar.ElementoActual();

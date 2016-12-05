@@ -53,6 +53,9 @@
     <ClInclude Include="LinkedList.h">
       <Filter>Implementacion</Filter>
     </ClInclude>
+    <ClInclude Include="Ciudad.h">
+      <Filter>Implementacion</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <Text Include="Pruebas\Casos de Prueba\Casos de Prueba.txt">

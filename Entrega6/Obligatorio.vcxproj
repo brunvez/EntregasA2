@@ -104,6 +104,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="CasoDePrueba.h" />
+    <ClInclude Include="Ciudad.h" />
     <ClInclude Include="LinkedList.h" />
     <ClInclude Include="Producto.h" />
     <ClInclude Include="ICiudad.h" />
