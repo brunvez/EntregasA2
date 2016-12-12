@@ -41,7 +41,7 @@ public:
 	void Remove(const T& e);
 	//pre: 0 <= index < size
 	//pos: borra el elemento en la posicion index
-	void Remove(int index);
+	void RemoveAt(int index);
 	//pre: !IsEmpty()
 	//pos: borra el primer elemento de la lista
 	void RemoveFirst();
@@ -72,7 +72,7 @@ private:
 	T& Get(int index, Puntero<NodoLista<T>> list) const;
 	int IndexOf(const T& e, Puntero<NodoLista<T>> list) const;
 	bool Remove(const T& e, Puntero<NodoLista<T>> &list);
-	void Remove(int index, Puntero<NodoLista<T>> &list);
+	void RemoveAt(int index, Puntero<NodoLista<T>> &list);
 };
 #include "LinkedList.cpp"
 #endif // !LINKEDLIST_H

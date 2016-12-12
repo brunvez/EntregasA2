@@ -4,14 +4,87 @@
 Sistema::Sistema() {
 
 }
-void ViajeroBT(Matriz<nat> &mapa, int ciudadActual, int ciudadLlegada, Puntero<LinkedList<int>> ciudadesPasar, Puntero<LinkedList<int>> ciudadesPasadas,
-			   nat costoActual, nat costoMax, Array<int> mejor) {
 
+template<class T>
+bool ArrayContains(Array<T> arr, T e) {
+	for (int i = 0; i < (int)arr.Largo; i++) {
+		if (e == arr[i])
+			return true;
+	}
+	return false;
+}
+
+bool PasePorTodas(Puntero<LinkedList<int>> ciudadesPasar, Array<int> ciudadesPasadas) {
+	auto it = ciudadesPasar->GetIterator();
+	while (it.HayElemento()) {
+		if (!ArrayContains(ciudadesPasadas, it.ElementoActual()))
+			return false;
+		it.Avanzar();
+	}
+	return true;
+}
+
+template<class T>
+Array<T> AddLast(Array<T> arr, T e) {
+	Array<T> ret(arr.Largo + 1);
+	int i;
+	for (i = 0; i < (int)arr.Largo; i++) {
+		ret[i] = arr[i];
+	}
+	ret[i] = e;
+	return ret;
+}
+
+template<class T>
+Array<T> RemoveLast(Array<T> arr) {
+	Array<T> ret(arr.Largo - 1);
+	int i;
+	for (i = 0; i < (int)ret.Largo; i++) {
+		ret[i] = arr[i];
+	}
+	return ret;
+}
+
+
+void ViajeroBT(Matriz<nat> &mapa, int ciudadActual, int ciudadLlegada, Puntero<LinkedList<int>> ciudadesPasar, Array<int> ciudadesPasadas,
+			   nat costoActual, nat costoMax, Puntero<LinkedList<Array<int>>> mejores, nat mejorCosto) {
+	if (ciudadActual == ciudadLlegada && costoActual <= costoMax && PasePorTodas(ciudadesPasar, ciudadesPasadas)) {
+		if (costoActual < mejorCosto || (mejorCosto == costoActual && ciudadesPasadas.Largo < mejores->GetFirst().Largo)) {
+			mejores->Clear();
+
+			mejores->AddFirst(ciudadesPasadas);
+			mejorCosto = costoActual;
+		} else if (mejorCosto == costoActual) {
+			mejores->AddFirst(ciudadesPasadas);
+		}
+	} else {
+		Array<int> arr = AddLast(ciudadesPasadas, ciudadActual);
+		for (int i = 0; i < (int)mapa.Largo; i++) {
+			if (mapa[ciudadActual][i] != 0 && (i == ciudadLlegada || !ArrayContains(arr, i))) {
+				ViajeroBT(mapa, i, ciudadLlegada, ciudadesPasar, arr, costoActual + mapa[ciudadActual][i], costoMax, mejores, mejorCosto);
+			}
+		}
+	}
 }
 
 Iterador<Iterador<Puntero<ICiudad>>> Sistema::Viajero(Array<Puntero<ICiudad>> &ciudadesDelMapa, Matriz<nat> &mapa, Puntero<ICiudad> &ciudadPartida,
 													  Iterador<Puntero<ICiudad>> &ciudadesPasar, nat costoMax) {
-
+	Puntero<LinkedList<int>> ciudadesPasarL = new LinkedList<int>();
+	while (ciudadesPasar.HayElemento()) {
+		int numeroCiudad = ciudadesPasar.ElementoActual()->ObtenerNumero();
+		ciudadesPasarL->AddFirst(numeroCiudad);
+		ciudadesPasar.Avanzar();
+	}
+	Puntero<LinkedList<Array<int>>> mejores = new LinkedList<Array<int>>();
+	int ciudadActual = ciudadPartida->ObtenerNumero();
+	Array<int> ciudadesPasadas(1);
+	ciudadesPasadas[0] = ciudadActual;
+	for (int i = 0; i < (int)mapa.Largo; i++) {
+		if (mapa[ciudadActual][i] != 0 && !ArrayContains(ciudadesPasadas, i)) {
+			ViajeroBT(mapa, i, ciudadActual, ciudadesPasarL, ciudadesPasadas, mapa[ciudadActual][i], costoMax, mejores, INT16_MAX);
+		}
+	}
+	// transformar array de ints a ciudades y de ahi a iteradores
 	return NULL;
 }
 
@@ -163,10 +236,10 @@ void quicksort(Array<nat> arr, int left, int right) {
 	int j = right;
 	int pivot = arr[min];
 
-	while (left<j || i<right) {
-		while ((int)arr[i]<pivot)
+	while (left < j || i < right) {
+		while ((int)arr[i] < pivot)
 			i++;
-		while ((int)arr[j]>pivot)
+		while ((int)arr[j] > pivot)
 			j--;
 
 		if (i <= j) {
@@ -174,9 +247,9 @@ void quicksort(Array<nat> arr, int left, int right) {
 			i++;
 			j--;
 		} else {
-			if (left<j)
+			if (left < j)
 				quicksort(arr, left, j);
-			if (i<right)
+			if (i < right)
 				quicksort(arr, i, right);
 			return;
 		}

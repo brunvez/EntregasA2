@@ -70,10 +70,10 @@ void LinkedList<T>::Remove(const T & e) {
 }
 
 template<class T>
-void LinkedList<T>::Remove(int index) {
+void LinkedList<T>::RemoveAt(int index) {
 	assert(index < size);
 	assert(index >= 0);
-	Remove(index, list);
+	RemoveAt(index, list);
 	size--;
 }
 
@@ -162,7 +162,7 @@ bool LinkedList<T>::Remove(const T & e, Puntero<NodoLista<T>> &list) {
 }
 
 template<class T>
-void LinkedList<T>::Remove(int index, Puntero<NodoLista<T>> &list) {
+void LinkedList<T>::RemoveAt(int index, Puntero<NodoLista<T>> &list) {
 	if (index == 0) {
 		list = list->sig;
 	} else {
